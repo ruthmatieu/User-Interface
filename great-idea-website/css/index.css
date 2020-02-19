@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container {
+	margin: 2% 5%;
+}
+
+#container header nav {
+	margin: 1% 0;
+	vertical-align: middle;
+
+}
+
+#container header nav a{
+	margin: 0 2%;
+	text-decoration: none;
+	color: gray;
+}
+
+#container header nav a:hover{
+	color: pink;
+	transition: 0.5s;
+}
+#containter header nav .logo {
+	margin-right: auto;
+}
+
+#container header nav .contact{
+	padding-right: 30%;
+}
+#introduction {
+	padding: 50px 0;
+}
+#introduction div {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+#introduction .main-heading {
+	display: inline-block;
+	width: 49.5%;
+	text-align: center;
+}
+
+#introduction .main-heading h1{
+	font-size: 50px;
+}
+
+#introduction .main-heading button{
+	box-shadow: 0px 10px 14px -7px #333;
+	background-color: #FFF;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #333;
+	padding: 13px 32px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#introduction .main-heading button:hover{
+	background-color: gray;
+	color: #FFF;
+	transition: 0.5s;
+}
+
+#introduction .image {
+	display: inline-block;
+	width: 49.5%;
+}
+
+#introduction img {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+#company-details {
+	padding: 20px 0;
+}
+
+#company-details .section-one {
+	width: 49.5%;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+#company-details .section-two {
+	width: 49.5%;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+#company-details img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 100%;
+}
+
+#company-details .section-four div{
+	display: inline-block;
+	width: 33%;
+	padding-top: 20px;
+}
+footer h4 {
+	padding-top: 20px;
+}
+footer div {
+	padding: 10px 0 40px 0;
+}
+
+footer .number, .email {
+	padding-bottom: 10px;
+}
+
+footer .copyright {
+	padding-top: 20px;
+	text-align: center;
+}
