@@ -71,8 +71,10 @@ h1, h2, h3, h4, h5 {
 
 #container header nav {
 	margin: 1% 0;
-	padding-bottom: 25px;
+	vertical-align: middle;
+
 }
+
 #container header nav a{
 	margin: 0 2%;
 	text-decoration: none;
@@ -87,6 +89,12 @@ h1, h2, h3, h4, h5 {
 	margin-right: auto;
 }
 
+#container header nav .contact{
+	padding-right: 30%;
+}
+#introduction {
+	padding: 50px 0;
+}
 #introduction div {
 	display: inline-block;
 	width: 50%;
